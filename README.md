@@ -5,7 +5,7 @@ FlappyBird is an animated mathematically coded game. Built on JAVA, this game ad
 This game however is not designed properly but is made to run by visualising shapes and colors.
 The code is explaned below.
 
-### Packages and libraries used:
+# Packages and libraries used:
 
 
 
@@ -42,8 +42,10 @@ import java.util.Random;
         g.fillRect(rX2,rY2,40,40);
         g.setColor(Color.GREEN);
         
-        ```
-## Checking states and levels
+ ```
+# Checking states and levels
+
+
 ```markdown
 public void changeStateUp(int pointerX){
         if(pointerX==1)velY=(-1)*speedY;
@@ -53,15 +55,8 @@ public void changeStateUp(int pointerX){
         if(pointerY==1)velY=speedY;
         if(pointerY==2)velY1=speedY1;
         if(pointerY==3)velY2=speedY2;}
-         ```
+
+ ```
 
 
 
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/XDoodler/xdoodler.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
